@@ -1,6 +1,6 @@
 Name: spamoracle
 Version: 1.4
-Release: %mkrel 4
+Release: %mkrel 6
 Group: Networking/Mail
 Summary: Spam filter based on statistical analysis of e-mail contents
 License: GPL
