@@ -40,3 +40,44 @@ rm -rf %buildroot
 %_mandir/man5/spamoracle.conf.5*
 
 
+
+
+%changelog
+* Thu Sep 22 2011 GÃ¶tz Waschk <waschk@mandriva.org> 1.4-9mdv2012.0
++ Revision: 700801
+- rebuild
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 1.4-8mdv2011.0
++ Revision: 445186
+- rebuild
+
+* Tue Jan 06 2009 Florent Monnier <blue_prawn@mandriva.org> 1.4-7mdv2009.1
++ Revision: 325808
+- removed procmail dep (can be used with anything)
+
+* Sat Aug 02 2008 Thierry Vignaud <tv@mandriva.org> 1.4-7mdv2009.0
++ Revision: 260916
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 1.4-6mdv2009.0
++ Revision: 252898
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+
+* Fri Nov 24 2006 GÃ¶tz Waschk <waschk@mandriva.org> 1.4-4mdv2007.0
++ Revision: 86893
+- Import spamoracle
+
+* Fri Nov 24 2006 Götz Waschk <waschk@mandriva.org> 1.4-4mdv2007.1
+- rebuild
+
+* Tue Nov 08 2005 GÃ¶tz Waschk <waschk@mandriva.org> 1.4-3mdk
+- Rebuild
+
+* Fri Nov 05 2004 Götz Waschk <waschk@linux-mandrake.com> 1.4-2mdk
+- rebuild
+
