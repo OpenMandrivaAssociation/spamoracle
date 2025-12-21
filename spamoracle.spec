@@ -6,6 +6,7 @@ Summary: Spam filter based on statistical analysis of e-mail contents
 License: GPL
 Url: https://pauillac.inria.fr/~xleroy/software.html#spamoracle
 Source: http://pauillac.inria.fr/~xleroy/software/spamoracle-%version.tar.bz2
+BuildRequires:	make
 BuildRequires: ocaml
 Buildroot: %_tmppath/%name-%version-buildroot
 
